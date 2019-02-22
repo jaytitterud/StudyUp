@@ -1,3 +1,4 @@
+
 package edu.studyup.entity;
 
 public class Location {
