@@ -80,6 +80,7 @@ class EventServiceImplTest {
 			eventServiceImpl.updateEventName(eventID, "Renamed Event 3");
 		  });
 	}
+}
 	
 	/*@Test
 	void testStringLimit() {
@@ -88,7 +89,7 @@ class EventServiceImplTest {
 			eventServiceImpl.updateEventName(eventID, "This string is twnty");
 			});
 		
-	}*/
+	}
 	
 	@Test
 	void testUpdateEvent_StringExactlyTwenty() {
@@ -246,3 +247,4 @@ class EventServiceImplTest {
 		assertFalse(activeEvents.contains(past));	
 	}
 }
+	*/
